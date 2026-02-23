@@ -54,7 +54,7 @@ export default function ImageUploader({
 
             if (uploadError) {
                 console.error('Upload details:', uploadError)
-                throw new Error('이미지 업로드에 실패했습니다. (Storage 권한/설정을 확인하세요)')
+                throw new Error(`이미지 업로드에 실패했습니다: ${uploadError.message} (Storage 권한/설정을 확인하세요)`)
             }
 
             // public URL 가져오기
