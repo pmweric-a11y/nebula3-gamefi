@@ -1,0 +1,132 @@
+﻿
+> nebula3-gamefi@0.1.0 build
+> next build
+
+node.exe : ??`eslint` c
+onfiguration in next.co
+nfig.ts is no longer su
+pported. See more info 
+here: https://nextjs.or
+g/docs/app/api-referenc
+e/cli/next#next-lint-op
+tions
+위치 줄:1 문자:1
++ & "C:\Program Files\n
+odejs/node.exe" "C:\Pro
+gram Files\nodejs/node_
+mo ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecified
+:     (??`eslint` conf.
+..x    t-lint-options:S
+trin    g) [], RemoteEx
+cepti    on
+    + FullyQualifiedErr
+o    rId : NativeComman
+dE    rror
+ 
+??Invalid next.config.t
+s options detected: 
+??    Unrecognized key(
+s) in object: 'eslint'
+??See more info here: h
+ttps://nextjs.org/docs/
+messages/invalid-next-c
+onfig
+??Next.js 16.1.6 (Turbopack)
+- Environments: .env.local, .env.production
+
+  Creating an optimized production build ...
+??Compiled successfully in 3.4s
+  Skipping validation of types
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/7) ...
+Error occurred prerende
+ring page "/admin/dashb
+oard". Read more: https
+://nextjs.org/docs/mess
+ages/prerender-error
+Error: Invalid supabase
+Url: Must be a valid HT
+TP or HTTPS URL.
+    at <unknown> (C:\Us
+ers\?μ쁺??.gemini\antigr
+avity\scratch\nebula3-g
+amefi\.next\server\chun
+ks\ssr\src_lib_supabase
+_ts_187e04b9._.js:37:43
+509)
+    at new cd (C:\Users
+\?μ쁺??.gemini\antigravi
+ty\scratch\nebula3-game
+fi\.next\server\chunks\
+ssr\src_lib_supabase_ts
+_187e04b9._.js:37:43691
+)
+    at module evaluatio
+n (C:\Users\?μ쁺??.gemin
+i\antigravity\scratch\n
+ebula3-gamefi\.next\ser
+ver\chunks\ssr\src_lib_
+supabase_ts_187e04b9._.
+js:37:48029)
+    at instantiateModul
+e (C:\Users\?μ쁺??.gemin
+i\antigravity\scratch\n
+ebula3-gamefi\.next\ser
+ver\chunks\ssr\[turbopa
+ck]_runtime.js:740:9)
+    at getOrInstantiate
+ModuleFromParent (C:\Us
+ers\?μ쁺??.gemini\antigr
+avity\scratch\nebula3-g
+amefi\.next\server\chun
+ks\ssr\[turbopack]_runt
+ime.js:763:12)
+    at Context.esmImpor
+t [as i] (C:\Users\?μ쁺?
+?.gemini\antigravity\sc
+ratch\nebula3-gamefi\.n
+ext\server\chunks\ssr\[
+turbopack]_runtime.js:2
+28:20)
+    at module evaluatio
+n (C:\Users\?μ쁺??.gemin
+i\antigravity\scratch\n
+ebula3-gamefi\.next\ser
+ver\chunks\ssr\[root-of
+-the-server]__adae3aaa.
+_.js:1:159)
+    at instantiateModul
+e (C:\Users\?μ쁺??.gemin
+i\antigravity\scratch\n
+ebula3-gamefi\.next\ser
+ver\chunks\ssr\[turbopa
+ck]_runtime.js:740:9)
+    at getOrInstantiate
+ModuleFromParent (C:\Us
+ers\?μ쁺??.gemini\antigr
+avity\scratch\nebula3-g
+amefi\.next\server\chun
+ks\ssr\[turbopack]_runt
+ime.js:763:12)
+    at Context.commonJs
+Require [as r] (C:\User
+s\?μ쁺??.gemini\antigrav
+ity\scratch\nebula3-gam
+efi\.next\server\chunks
+\ssr\[turbopack]_runtim
+e.js:249:12) {
+  digest: '1968763481'
+}
+Export encountered an e
+rror on /admin/dashboar
+d/page: /admin/dashboar
+d, exiting the build.
+殊?Next.js build worker 
+exited with code: 1 and
+ signal: null
